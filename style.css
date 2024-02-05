@@ -80,3 +80,20 @@ p{
 .dice-image{
     width: 28px;
 }
+
+@media(max-width:660px){
+    
+    .advice-card{
+        width: 80vw;
+    }
+
+    p{
+        width: 70vw;
+        overflow: visible;
+    }
+
+    .advice-divide{
+        width: 80%;
+        overflow: hidden;
+    }
+}
